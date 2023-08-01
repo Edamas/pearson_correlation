@@ -2,14 +2,14 @@
 Function in pure python
 
 ----------------------------------------------
-# Example 1:
+## Example 1:
 
 correl = correlacao(
   serie_x=[0, 1, 2, 3, 4, 5], 
   serie_y=[10, 11, 12, 13, 14, 15],
 verbose=True)
 
-# Result:
+### Result:
 '''
 n:                             6.               
 soma_x:                       15.               
@@ -24,7 +24,7 @@ CORRELAÇÃO r:                  1.0
 '''
 
 ----------------------------------------------
-# Example 2:
+## Example 2:
 
 correl = correlacao(
   serie_x=[0, 1, 2, 3, 4, 5], 
@@ -32,5 +32,5 @@ correl = correlacao(
 verbose=False)
 print(correl)
 
-# Result:
+### Result:
 1.0
